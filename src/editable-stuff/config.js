@@ -11,26 +11,26 @@ const mainBody = {
   lastName: "Théry",
   message: "Optez pour du contenu de qualité.",
   icons: [
-    {
-      image: "fa-github",
-      url: "https://github.com/hashirshoaeb",
-    },
-    {
-      image: "fa-facebook",
-      url: "https://www.facebook.com/hashirshoaeb",
-    },
-    {
-      image: "fa-instagram",
-      url: "https://www.instagram.com/hashirshoaeb/",
-    },
+    // {
+    //   image: "fa-github",
+    //   url: "https://github.com/hashirshoaeb",
+    // },
+    // {
+    //   image: "fa-facebook",
+    //   url: "https://www.facebook.com/hashirshoaeb",
+    // },
+    // {
+    //   image: "fa-instagram",
+    //   url: "https://www.instagram.com/hashirshoaeb/",
+    // },
     {
       image: "fa-linkedin",
-      url: "https://www.linkedin.com/in/hashirshoaeb/",
+      url: "https://www.linkedin.com/in/benoit-th%C3%A9ry-bb5a6080/",
     },
-    {
-      image: "fa-twitter",
-      url: "https://www.twitter.com/hashirshoaeb/",
-    },
+    // {
+    //   image: "fa-twitter",
+    //   url: "https://www.twitter.com/hashirshoaeb/",
+    // },
   ],
 };
 
@@ -50,7 +50,7 @@ const mainBody = {
 
 const about = {
   show: true,
-  heading: "About Me",
+  heading: "A propos",
   imageLink: require("../editable-stuff/benoitthery.jpg"),
   imageSize: 375,
   message:
@@ -64,8 +64,8 @@ const about = {
 // If you want to display specfic projects, add the repository names,
 //      i.e ["repository-1", "repo-2"]
 const repos = {
-  show: true,
-  heading: "Recent Projects",
+  show: false,
+  heading: "Mes projets",
   gitHubUsername: "hashirshoaeb", //i.e."johnDoe12Gh"
   reposLength: 4,
   specificRepos: [],
@@ -98,41 +98,37 @@ const leadership = {
 // SKILLS SECTION
 const skills = {
   show: true,
-  heading: "Skills",
+  heading: "Compétences",
   hardSkills: [
-    { name: "Python", value: 90 },
-    { name: "SQL", value: 75 },
-    { name: "Data Structures", value: 85 },
-    { name: "C/C++", value: 65 },
-    { name: "JavaScript", value: 90 },
-    { name: "React", value: 65 },
-    { name: "HTML/CSS", value: 55 },
-    { name: "C#", value: 80 },
+    { name: "Français", value: 90 },
+    { name: "Anglais", value: 70 },
+    { name: "Journalisme", value: 80 },
+    { name: "SEO rédactionnel", value: 75 },
+    { name: "SEO technique", value: 70 },
+    { name: "Utilisation de l'IA", value: 80 },
   ],
   softSkills: [
-    { name: "Goal-Oriented", value: 80 },
+    { name: "Autonomie", value: 90 },
+    { name: "Flexibilité", value: 80 },
     { name: "Collaboration", value: 90 },
-    { name: "Positivity", value: 75 },
-    { name: "Adaptability", value: 85 },
-    { name: "Problem Solving", value: 75 },
-    { name: "Empathy", value: 90 },
-    { name: "Organization", value: 70 },
-    { name: "Creativity", value: 90 },
+    { name: "Réactivité", value: 85 },
+    { name: "Gestion des conflits", value: 70 },
+    { name: "Positivité", value: 85 },
   ],
 };
 
 // GET IN TOUCH SECTION
 const getInTouch = {
   show: true,
-  heading: "Get In Touch",
+  heading: "Contactez-moi",
   message:
-    "I'm currently looking for full-time Software Engineering or Machine Learning opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
-  email: "hashirshoaeb@gmail.com",
+    "Je suis toujours à l'écoute de nouveaux projets, en particulier dans les domaines de la high-tech (comme l'intelligence artificielle ou l'auto électrique). N'hésitez pas à me contacter à",
+  email: "thery.benoit@hotmail.fr",
 };
 
 const experiences = {
   show: false,
-  heading: "Experiences",
+  heading: "Expériences",
   data: [
     {
       role: 'Software Engineer',// Here Add Company Name
