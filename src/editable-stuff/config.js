@@ -24,6 +24,10 @@ const mainBody = {
     //   url: "https://www.instagram.com/hashirshoaeb/",
     // },
     {
+      image: "/img/malt.png",
+      url: "https://www.malt.fr/profile/TON_NOM",
+    },
+    {
       image: "fa-linkedin",
       url: "https://www.linkedin.com/in/benoit-th%C3%A9ry-bb5a6080/",
     },
